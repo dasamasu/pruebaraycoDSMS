@@ -1,0 +1,56 @@
+:root{
+    --bg-body: #eaefef;
+    --bg-container: #dee0e2;
+    --color-text: #595959;
+}
+
+body{
+	font-family: 'Kanit', sans-serif;
+    background: var(--bg-body);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-size: 1.8rem;
+    margin: 2rem;
+    padding: .8rem;
+    color: var(--color-text);
+}
+
+.container{
+    background: var(--bg-container);
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 10px 10px 27px 0px rgba(199,189,189,0.82);
+    -webkit-box-shadow: 10px 10px 27px 0px rgba(199,189,189,0.82);
+    -moz-box-shadow: 10px 10px 27px 0px rgba(199,189,189,0.82);
+}
+
+.containerTable{
+
+   
+}
+
+
+form{
+    margin: 2rem;
+    color: var(--color-text);
+    padding: 0.5rem 1.2rem;
+}
+
+.form-control{
+  margin-bottom: 0.5rem;  
+}
+
+select, input{
+
+	 font-family: inherit; 
+    font-size: 100%; 
+    line-height: 1.15; 
+    margin: 0; 
+}
